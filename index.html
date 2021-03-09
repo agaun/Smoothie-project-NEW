@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Сюда подключаем стили -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<header class="header">
+    <div class="header__top">
+        <div class="header__menu menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">Shop</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">Story</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">About</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">Blog</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__logo logo">
+            <a class="logo__link">
+                <img class="logo__img" src="./assets/images/Logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="header__personal personal">
+            <ul class="personal__list">
+                <li class="personal__list-item">
+                    <a class="personal__link">
+                        <img class="personal__icon-search" src="./assets/images/Search-icon.png" alt="Search">
+                    </a>
+                </li>
+                <li class="personal__list-item">
+                    <a class="personal__link">
+                        <img class="personal__icon-user" src="./assets/images/User-icon.png" alt="User">
+                    </a>
+                </li>
+                <li class="personal__list-item">
+                    <a class="personal__link">
+                        <img class="personal__icon-cart" src="./assets/images/Cart-icon.png" alt="Cart">
+                        <span class="personal__cart-count">3</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__social social">
+                <ul class="social__list">
+                    <li class="social__list-item">
+                        <a class="social__link">
+                            <img class="soial__icon" src="./assets/images/Facebook-icon.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="social__list-item">
+                        <a class="social__link">
+                            <img class="soial__icon" src="./assets/images/Pinterest-icon.png" alt="Pinterest">
+                        </a>
+                    </li>
+                    <li class="social__list-item">
+                        <a class="social__link">
+                            <img class="soial__icon" src="./assets/images/Instagram-icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__content">
+                <button class="header__btn btn btn--green-bg">
+                    Shop Now
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <!-- Здесь будет структура документа -->
+    <section class="smoothies">
+        <div class="smoothies__top">
+        <h2 class="title title--yellow">What are these smoothies?</h2>
+            <p class="smoothies__text text text--black">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk,
+                yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other
+                ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or syrup),
+                whey powder, plant milk, nuts, nut butter, seeds, tea, chocolate, herbal supplements, or nutritional
+                supplements.
+            </p>
+        </div>
+        <div class="smoothies__grid">
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_plant.png" alt="Plant_Based">
+                <h3 class="smoothies__grid-text">Plant Based</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_vegan.png" alt="Vegan">
+                <h3 class="smoothies__grid-text">Vegan</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_paleo.png" alt="Paleo">
+                <h3 class="smoothies__grid-text">Paleo</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_gluten.png" alt="Gluten_free">
+                <h3 class="smoothies__grid-text">Gluten-Free</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_corn.png" alt="Corn_free">
+                <h3 class="smoothies__grid-text">Corn-Free</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_soy.png" alt="Soy-Free">
+                <h3 class="smoothies__grid-text">Soy-Free</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" src="./assets/images/Icon_ayurvedic.png" alt="Ayuverdic">
+                <h3 class="smoothies__grid-text">Ayurvedic</h3>
+            </div>
+            <div class="smoothies__grid-item">
+                <img class="smoothies__grid-icon" class="smoothies__grid-icon" src="./assets/images/Icon_love.png"
+                     alt="With_love">
+                <h3 class="smoothies__grid-text">Made With Love</h3>
+            </div>
+    </section>
+    <section class="about">
+        <div class="about__img--wrapper">
+            <img class="about__img" src="./assets/images/Img_awesome_drink.png" alt="Img_awesome_drink">
+        </div>
+        <div class="about__inner">
+            <h2 class="title title--white">What makes Smoothie an<span class="title--lime">awesome drink?</span>
+            </h2>
+
+            <div class="about__list-inner">
+                <ul class="about__list">
+                    <li class="about__list-item">Crunchy Puffs Texture</li>
+                    <li class="about__list-item">100 Calories per drink</li>
+                    <li class="about__list-item">4g Plant Protein</li>
+                    <li class="about__list-item">Good source of Magnesium & Vitamin B6</li>
+                    <li class="about__list-item">No Sugar in our Savory Flavors</li>
+                    <li class="about__list-item">Non-GMO, Vegan & Paleo</li>
+                    <li class="about__list-item">Gluten-Free & Grain-Free</li>
+                    <li class="about__list-item">Corn-Free & Soy-Free</li>
+                </ul>
+            </div>
+            <button class="about__btn btn btn--yellow-border">
+                About Organic Smoothies
+            </button>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products__card products__card--brown">
+            <img class="products__img" src="./assets/images/Dark-Choc-Sm.png" alt="Dark-chocolate">
+            <h3 class="products__img-title">Dark Chocolate Smoothie</h3>
+            <span class="products__img-subtitle">100 ml</span>
+            <button class="btn btn--white-border">Buy
+            </button>
+        </div>
+        <div class="products__card products__card--green">
+            <img class="products__img" src="./assets/images/Vegan-Lett-Sm.png" alt="Vegan">
+            <h3 class="products__img-title">Vegan Lettuce Smoothie</h3>
+            <span class="products__img-subtitle">100 ml</span>
+            <button class="btn btn--white-border">Buy
+            </button>
+        </div>
+        <div class="products__card products__card--yellow">
+            <img class="products__img" src="./assets/images/Lemon-Gin-Sm.png" alt="Lemon">
+            <h3 class="products__img-title">Lemon Ginger Smoothie</h3>
+            <span class="products__img-subtitle">100 ml</span>
+            <button class="btn btn--white-border">Buy
+            </button>
+        </div>
+        <div class="products__card products__card--red">
+            <img class="products__img" src="./assets/images/Turmeric-Gar-Sm.png" alt="Turmeric">
+            <h3 class="products__img-title">Turmeric Garlic Smoothie</h3>
+            <span class="products__img-subtitle">100 ml</span>
+            <button class="btn btn--white-border">Buy
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
+
